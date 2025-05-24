@@ -42,7 +42,7 @@ function Navbar() {
           <div
             className="bg-cover bg-center h-12 w-12"
             style={{
-              backgroundImage: `url('https://cdn.knoji.com/images/logo/the-clove-club.jpg')`,
+              backgroundImage: `url('https://logosmarcas.net/wp-content/uploads/2020/11/Swiggy-Logo-650x366.png')`,
             }}
           ></div>
         </div>
