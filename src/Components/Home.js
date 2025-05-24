@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Home() {
   const [image, setImage] = useState(
-    "https://logosmarcas.net/wp-content/uploads/2020/11/Swiggy-Logo-650x366.png"
+    "https://images2.alphacoders.com/862/862730.jpg"
   );
   //const [items, setItems] = useState([""]);
   const front = () => {
@@ -57,12 +57,12 @@ function Home() {
             class="fa-solid fa-caret-left text-6xl absolute top-1/2 left-0"
             onClick={back}
           ></i>
-          <div className="absolute top-1/2 left-1/2 right-1/2 text-white">
+          <div className="absolute top-1/2 left-1/2 right-1/2 text-gray">
             <p
               className="flex flex-wrap text-8xl font-extrabold
 "
             >
-              ORDER FOOD ON SWIGGY
+          ORDER FOOD ON SWIGGY
             </p>
           </div>
           <i
