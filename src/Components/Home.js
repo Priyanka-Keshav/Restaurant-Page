@@ -57,12 +57,12 @@ function Home() {
             class="fa-solid fa-caret-left text-6xl absolute top-1/2 left-0"
             onClick={back}
           ></i>
-          <div className="absolute top-1/2 left-1/2 right-1/2 text-gray">
+          <div className="absolute top-1/2 left-1/2 right-1/2 text-white">
             <p
               className="flex flex-wrap text-8xl font-extrabold
 "
             >
-          ORDER FOOD ON SWIGGY
+          ORDER FOOD NOW
             </p>
           </div>
           <i
