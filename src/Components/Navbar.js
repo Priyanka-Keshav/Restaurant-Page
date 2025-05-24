@@ -59,32 +59,13 @@ function Navbar() {
             className="active:border-white duration:300"
             onClick={hideDrinks}
           >
-            <Link to="/drinks"> DRINKS {icon2}</Link>
+            <Link to="/drinks"> DRINKS</Link>
           </div>
           <div onMouseEnter={display} onMouseLeave={hide}>
             CONTACT {icon}
           </div>
         </div>
       </div>
-
-      {hover && (
-        <div
-          className="relative h-screen bg-cover bg-center"
-          style={{
-            backgroundImage: `url("https://handluggageonly.co.uk/wp-content/uploads/2015/10/Paris-Restaurants-with-cool-views-7.jpg")`,
-          }}
-        >
-          <div className="transform rounded">
-            <div className="bg-black text-white w-28 border-2 border-gray-500 fixed text-center right-8 ml-20">
-              {sm.map((s) => (
-                <ol key={s}>
-                  <li>{s}</li>
-                </ol>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
     </>
   );
 }
