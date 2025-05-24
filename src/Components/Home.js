@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Home() {
   const [image, setImage] = useState(
-    "https://i0.wp.com/imageio.forbes.com/specials-images/imageserve/62fe3a28c22bf8624fce7c7a/0x0.jpg?format=jpg&width=1200"
+    "https://logosmarcas.net/wp-content/uploads/2020/11/Swiggy-Logo-650x366.png"
   );
   //const [items, setItems] = useState([""]);
   const front = () => {
@@ -62,7 +62,7 @@ function Home() {
               className="flex flex-wrap text-8xl font-extrabold
 "
             >
-              THE CLOVE CLUB
+              ORDER FOOD ON SWIGGY
             </p>
           </div>
           <i
