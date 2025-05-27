@@ -38,7 +38,7 @@ pipeline {
         // 🔽 ADD THIS STAGE BELOW
         stage('Deploy to Kubernetes') {
             steps {
-                bat "kubectl apply -f restaurant-deployment.yaml"
+                bat "kubectl apply -f restaurant-deploy.yaml"
             }
         }
     }
